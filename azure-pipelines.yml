@@ -23,6 +23,7 @@ steps:
 
 - script: |
     python -m pip install --upgrade pip
+    install requirements.txt
 
 - script: |
     pip install pytest pytest-azurepipelines
